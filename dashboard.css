@@ -1,0 +1,169 @@
+main{
+    display: flex;
+}
+.nav_input{
+    padding: 0;
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0 8px 8px 0;
+}
+.nav_input input{
+    border: none;
+    padding: 9px 0 9px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    caret-color: dodgerblue;
+    color: dodgerblue;
+    outline: none;
+    width: 300px;
+}
+.nav_input button{
+    background: dodgerblue;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    border: 4px solid dodgerblue;
+    padding: 10px;
+    font-size: 16px;
+}
+.side_nav{
+    width: 15%;
+    height: 100vh;
+    background-color: dodgerblue;
+    position: sticky;
+    top: 0;
+}
+.second_section{
+    width: 85%;
+}
+.nav-logo{
+    display: flex;
+    padding: 8px 10px;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.nav-logo img{
+    width: 50px;
+    height: 40px;
+}
+.nav-logo h1{
+    margin-bottom: 5px;
+    margin-right: 15px;
+    color: red;
+}
+.nav{
+    background-color: #111;
+}
+.nav .navv-item{
+    list-style: none;
+    padding: 19px 0 19px 50px;
+}
+.nav #da.active{
+    background-color: #45ccc3;
+    border-radius: 0 0 0 0;
+}
+.nav .navv-item.active a,
+.nav .navv-item.active i{
+    color: #fff;
+}
+.nav .navv-item a{
+    margin-left: 10px;
+    color: dodgerblue;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.nav .navv-item i{
+    color: dodgerblue;
+}
+.nav .navv-item:hover{
+    background-color: dodgerblue;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+}
+.nav .navv-item:hover a,
+.nav .navv-item:hover i{
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.4);
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin: 0 10px 0 0;
+    border-right: 3px solid whitek;
+    padding-right: 20px;
+}
+.avater-div{
+    display: flex;
+}
+.avater{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #999;
+    border: 1px solid #444;
+    margin-right: 20px;
+}
+.selections{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+b:before{
+    content: "\20A6";
+}
+.goods-image{
+    text-align: center;
+}
+.goods-image img{
+    width: 100%;
+}
+.goods{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px 0 0 0;
+    border: 1px solid gray;
+    margin: 15px 0;
+    transition: .5s;
+}
+.goods:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    transform: scale(1.01);
+}
+.goods span{
+    text-decoration: line-through;
+}
+.price_cart{
+    display: flex;
+    justify-content: space-around;
+}
+.des_div{
+    background-color: dodgerblue;
+    padding: 5px 10px;
+    border-radius: 0 0 20px 20px;
+}
+.des_div .button_container{
+    margin-left: 33px;
+}
+.des_div button{
+    background: blue;
+    border: none;
+    font-size: 15px;
+    padding: 4px 7px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.4);
+    margin-left: 7px;
+}
